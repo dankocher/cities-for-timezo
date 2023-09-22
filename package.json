@@ -1,0 +1,10 @@
+{
+  "name": "cities-for-timezo",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+
+  }
+}
