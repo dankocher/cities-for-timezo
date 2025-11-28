@@ -1,0 +1,5 @@
+⚠️  To resume from where it stopped:
+   1. Run the upload command again
+   2. When asked "Resume from record number/index", enter: 37600
+   3. This will skip the first 37600 records and continue from record 376001
+   (Last successfully uploaded city ID: 2821029)
