@@ -1,10 +1,21 @@
 {
   "name": "cities-for-timezo",
-  "version": "0.0.1",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "CLI to download cities from GeoNames, filter them and upload to Firestore",
+  "main": "src/cli/index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node src/cli/index.js",
+    "download": "node src/cli/index.js download",
+    "upload": "node src/cli/index.js upload",
+    "full": "node src/cli/index.js full"
   },
   "dependencies": {
-
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.7",
+    "firebase-admin": "^12.5.0",
+    "inquirer": "^9.3.7",
+    "node-stream-zip": "^1.15.0",
+    "p-limit": "^6.1.0"
   }
 }
